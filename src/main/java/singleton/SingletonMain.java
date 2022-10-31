@@ -3,12 +3,12 @@ package singleton;
 public class SingletonMain {
 
     public static void main(String[]arg){
-        MongoDBClient mongoDBClient = MongoDBClient.getClient();
-        System.out.println(mongoDBClient.getData());
-        MongoDBClient mongoDBClient2 = MongoDBClient.getClient();
-        System.out.println(mongoDBClient2.getData());
-        MongoDBClient mongoDBClient3 = MongoDBClient.getClient();
-        System.out.println(mongoDBClient3.getData());
+        PostgresDBClient postgresDBClient = PostgresDBClient.getClient();
+        //System.out.println(postgresDBClient.getData());
+        PostgresDBClient postgresDBClient2 = PostgresDBClient.getClient();
+        //System.out.println(postgresDBClient2.getData());
+        PostgresDBClient postgresDBClient3 = PostgresDBClient.getClient();
+        //System.out.println(postgresDBClient3.getData());
 
 
     }
